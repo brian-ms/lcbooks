@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Navigate to the project directory
-cd /home/imperium/lc.imperiumgroup.co.ke/public_html
+cd /home/imperium/lc.imperiumgroup.co.ke/lcbooks/public_html
 
 # Pull the latest changes from GitHub
 git pull origin main
