@@ -30,7 +30,10 @@ SECRET_KEY = env("DJANGO_SECRET_KEY")
 DEBUG = env.bool("DJANGO_DEBUG", default=False)
 
 
-ALLOWED_HOSTS = [
+ALLOWED_HOSTS = ALLOWED_HOSTS = [
+    "lc.imperiumgroup.co.ke",
+    "www.lc.imperiumgroup.co.ke",
+    "lc.imperiumgroup.info",
     ".imperiumgroup.co.ke",
     ".imperiumgroup.info",
     "localhost",
