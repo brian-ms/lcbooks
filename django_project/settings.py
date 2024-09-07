@@ -106,8 +106,8 @@ DATABASES = {
     # "default": env.dj_db_url("DATABASE_URL", default="postgres://postgres@db/postgres")
     "default": {
         "ENGINE": "mysql.connector.django",
-        "NAME": "lcbooks",
-        "USER": "superbrian",
+        "NAME": "imperium_lcbooks",
+        "USER": "imperium_superbrian",
         "PASSWORD": "D@3gu.20!!",
         "HOST": "db",
         "PORT": 3306,
