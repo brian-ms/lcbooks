@@ -109,7 +109,7 @@ DATABASES = {
         "NAME": "imperium_lcbooks",
         "USER": "imperium_superbrian",
         "PASSWORD": "D@3gu.20!!",
-        "HOST": "db",
+        "HOST": "localhost",
         "PORT": 3306,
     }
 }
