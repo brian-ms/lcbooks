@@ -14,7 +14,7 @@ class Command(BaseCommand):
         search_term = "Pride and Prejudice"
         url = f"https://openlibrary.org/search.json?title={search_term}"
 
-        response = request.get(url)
+        response = requests.get(url)
         data = response.json()
         books = data.get("docs", [])
 
