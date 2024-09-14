@@ -1,4 +1,5 @@
 # Fetch books from openlibrary using open library api
+import requests
 from django.core.management.base import BaseCommand
 from books.models import Book
 
